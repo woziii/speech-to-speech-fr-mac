@@ -81,7 +81,7 @@ python listen_and_play.py --host <IP address of your server>
 ### Running on Mac
 To run on mac, we recommend setting the flag `--local_mac_optimal_settings`:
 ```bash
-python s2s_pipeline.py --local_mac_optimal_settings
+python s2s_pipeline.py --local_mac_optimal_settings --stt whisper-mlx --stt_model_name medium --stt_gen_language fr --llm mlx-lm --mlx_lm_init_chat_role system --tts coqui
 ```
 
 You can also pass `--device mps` to have all the models set to device mps.
