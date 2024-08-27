@@ -1,0 +1,7 @@
+nltk==3.9.1
+parler_tts @ git+https://github.com/huggingface/parler-tts.git # made a copy of MeloTTS to have compatible versions of transformers
+torch==2.4.0
+sounddevice==0.5.0
+lightning-whisper-mlx>=0.0.10
+mlx-lm>=0.14.0
+TTS @ git+https://github.com/coqui-ai/TTS
